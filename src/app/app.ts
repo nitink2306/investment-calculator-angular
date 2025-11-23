@@ -8,7 +8,6 @@ import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
-  // imports: [Header, UserInput, InvestmentResults],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: false,

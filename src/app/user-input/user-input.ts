@@ -5,8 +5,7 @@ import { InvestmentInputModel } from '../investment-input-model';
 
 @Component({
   selector: 'app-user-input',
-  standalone: true,
-  imports: [FormsModule],
+  standalone: false,
   templateUrl: './user-input.html',
   styleUrl: './user-input.css',
 })
