@@ -8,9 +8,10 @@ import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, UserInput, InvestmentResults],
+  // imports: [Header, UserInput, InvestmentResults],
   templateUrl: './app.html',
   styleUrl: './app.css',
+  standalone: false,
 })
 export class App {
   protected readonly title = signal('investment-calculator');
